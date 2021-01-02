@@ -14,8 +14,6 @@ The entry point for a user is a website which is available under the address: **
 
 ![Kanban](https://github.com/wkrzywiec/kanban-board/blob/master/assets/kanban.gif)
 
-More information about this project you can found in blog post: https://medium.com/@wkrzywiec/how-to-run-database-backend-and-frontend-in-a-single-click-with-docker-compose-4bcda66f6de
-
 ---
 
 ### Prerequisites
@@ -100,3 +98,8 @@ kanbans and tasks. It consumes the REST API endpoints provided by
 *kanban-app*.
 
 It can be entered using link: **http://localhost:4200/**
+
+
+---
+
+More information about this project you can found in blog [post](https://medium.com/@wkrzywiec/how-to-run-database-backend-and-frontend-in-a-single-click-with-docker-compose-4bcda66f6de)
