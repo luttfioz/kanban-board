@@ -1,4 +1,14 @@
 ## Kanban Application
+> docker ps 
+> docker ps -a
+> docker stop containerID 
+> docker rm containerID 
+
+> docker build -t kanban-ui .
+> docker run -d --name kanban-ui -p 8080:80 kanban-ui
+> docker run -it --rm -d --name kanban-ui-v9 -p 8080:80 kanban-ui-v9
+
+> docker run -it --rm -d -p 8080:80 --name web nginx  = localhost:8080 works 
 
 This is a simple implementation of a Kanban Board, a tool that helps visualize and manage work. Originally it was first created in Toyota automotive, but nowadays it's widely used in software development.
 
